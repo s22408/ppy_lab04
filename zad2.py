@@ -1,8 +1,7 @@
-#Zadanie 2. Napisz funkcję sprawdzającą czy podane liczby
-#są liczbami pierwszymi w szybszy sposób niż w
-# przykładzie. Do funkcji można przekazać dowolną liczbę
-# argumentów (liczby). Liczby 0 i 1 nie są
-# liczbami pierwszymi. (10%)
+"""
+Zadanie 2. Napisz funkcję sprawdzającą czy podane liczby są liczbami pierwszymi w szybszy sposób niż w przykładzie.
+Do funkcji można przekazać dowolną liczbę argumentów (liczby). Liczby 0 i 1 nie są liczbami pierwszymi. (10%)
+"""
 
 def function2(*arg):
 

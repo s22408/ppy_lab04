@@ -1,3 +1,11 @@
+"""
+Zadanie 1. Napisz funkcję obliczającą i zwracającą ilość potrzebnych opakowań paneli w
+danym pomieszczeniu, zakładając prostokątną podłogę i prostokątne panele. Dane wejściowe
+to długość i szerokość podłogi, (do powierzchni pomieszczenia należy dodać 10%)
+długość i szerokość panela oraz ilość paneli w opakowaniu. (10%)
+
+"""
+
 import math
 
 def function1(xPod, yPod, xPan, yPan, ilOp):
