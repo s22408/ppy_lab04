@@ -23,3 +23,12 @@ def function2(*arg):
             break
 
 function2(1,2,3,4,5,6,7)
+
+#KONSOLA:
+#1 NIE jest liczbą pierwszą
+#2 NIE jest liczbą pierwszą
+#3 JEST liczbą pierwszą
+#4 NIE jest liczbą pierwszą
+#5 JEST liczbą pierwszą
+#6 NIE jest liczbą pierwszą
+#7 JEST liczbą pierwszą
