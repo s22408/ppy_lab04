@@ -9,15 +9,17 @@ def function2(*arg):
     Argumenty = list(arg)
 
     for x in Argumenty:
-        print(x)
         if x == 1 or x == 0:
             print(str(x)+' NIE jest liczbą pierwszą')
+            continue
 
         i = 2
         while i^2 <= x:
             if x % i == 0:
                 print(str(x)+' NIE jest liczbą pierwszą')
+                break
             i =+ 1
             print(str(x)+' JEST liczbą pierwszą')
+            break
 
-function2(1,2)
+function2(1,2,3,4,5,6,7)
